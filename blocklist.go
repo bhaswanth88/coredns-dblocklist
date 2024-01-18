@@ -1,4 +1,4 @@
-package blocklist
+package dblocklist
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"strings"
 )
 
-var log = clog.NewWithPlugin("blocklist")
+var log = clog.NewWithPlugin("dblocklist")
 
 type Blocklist struct {
 	blockDomains  map[string]bool

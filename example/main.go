@@ -1,11 +1,11 @@
 package main
 
 import (
-	_ "github.com/coredns/coredns/core/plugin"
-	_ "github.com/relekang/coredns-blocklist"
+	_ "github.com/bhaswanth88/coredns-dblocklist"
+	_ "github.com/bhaswanth88/coredns/core/plugin"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/coremain"
+	"github.com/bhaswanth88/coredns/core/dnsserver"
+	"github.com/bhaswanth88/coredns/coremain"
 )
 
 func init() {

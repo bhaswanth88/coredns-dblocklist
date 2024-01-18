@@ -1,4 +1,4 @@
-package blocklist
+package dblocklist
 
 import (
 	"sync"

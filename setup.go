@@ -1,4 +1,4 @@
-package blocklist
+package dblocklist
 
 import (
 	"errors"
@@ -8,7 +8,7 @@ import (
 	"github.com/coredns/coredns/plugin"
 )
 
-func init() { plugin.Register("blocklist", setup) }
+func init() { plugin.Register("dblocklist", setup) }
 
 func setup(c *caddy.Controller) error {
 	for c.Next() {
